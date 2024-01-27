@@ -1,7 +1,7 @@
 First of all, let’s get the definition out of the way. DLL hijacking is, in the broadest sense, tricking a legitimate/trusted application into loading an arbitrary DLL. Terms such as DLL Search Order Hijacking, DLL Load Order Hijacking, DLL Spoofing, DLL Injection and DLL Side-Loading are often -mistakenly- used to say the same.
 Dll hijacking can be used to execute code, obtain persistence and escalate privileges. From those 3 the least probable to find is privilege escalation by far. However, as this is part of the privilege escalation section, I will focus on this option. Also, note that independently of the goal, a dll hijacking is perform the in the same way.
 
-#Finding missing Dlls
+#Finding-missing-Dlls
 
 The most common way to find missing Dlls inside a system is running procmon from sysinternals, setting the following 2 filters from jpg files i put .
 If you are looking for missing dlls in general you leave this running for some seconds.
