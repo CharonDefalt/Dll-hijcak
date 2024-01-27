@@ -8,6 +8,7 @@ If you are looking for missing dlls in general you leave this running for some s
 If you are looking for a missing dll inside an specific executable you should set another filter like "Process Name" "contains" "<exec name>", execute it, and stop capturing events.
 
 #Exploiting Missing Dlls
+
 In order to escalate privileges, the best chance we have is to be able to write a dll that a privilege process will try to load in some of place where it is going to be searched. Therefore, we will be able to write a dll in a folder where the dll is searched before the folder where the original dll is (weird case), or we will be able to write on some folder where the dll is going to be searched and the original dll doesn't exist on any folder.
 
 Use metasploit :
